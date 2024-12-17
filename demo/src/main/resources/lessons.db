@@ -1,0 +1,8 @@
+-- V1__Create_Lessons_Table.sql
+CREATE TABLE lessons (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    start_time TIMESTAMP NOT NULL,
+    end_time TIMESTAMP NOT NULL,
+    teacher VARCHAR(100) NOT NULL
+);
